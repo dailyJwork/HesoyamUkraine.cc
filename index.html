@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesoyam.cc</title>
+    <link rel="icon" type="image/svg+xml" href="./img/linkLogo.jpg" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="enterContainer">
+        <p class="enterWord">Welcome to our store</p>
+      </div>
+      <div class="headerContainer">
+        <div class="headerLeftSide">
+          <img
+            src="./img/logoImg.jpg"
+            alt="HESOYAM.CC"
+            width="100"
+            height="60"
+            class="logoImg"
+          />
+          <ul class="headerNavList">
+            <li>
+              <button class="headerNavLink">
+                <a href="/index.html" class="headerNavLinkBtn">Home</a>
+              </button>
+            </li>
+            <li>
+              <button class="headerNavLink">
+                <a href="./catalog.html" class="headerNavLinkBtn">Catalog</a>
+              </button>
+            </li>
+            <li>
+              <button class="headerNavLink">
+                <a href="./contact.html" class="headerNavLinkBtn">Contacts</a>
+              </button>
+            </li>
+            <li>
+              <button class="headerNavLink">
+                <a href="./extraInfo.html" class="headerNavLinkBtn"
+                  >Extra Info</a
+                >
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <video autoplay muted loop playsinline class="videoBanner">
+          <source src="./video/video banner.MOV" type="video/mp4" />
+        </video>
+      </section>
+      <section>
+        <div class="secondSectionContainer">
+          <p class="productListTitle">Featured products</p>
+          <ul class="productListMain">
+            <li>
+              <button type="button" class="productsListItemBtn" id="tee1">
+                <img
+                  src="/img/tee2.jpg"
+                  alt="YELLOW GTA EURO tee"
+                  width="200"
+                  height="200"
+                />
+                <img src="/img/teeBack1.2.jpg" alt="" width="200" height="200" class="teeBack">
+                <p class="productsListItemTitle">PINK "GTA EURO" tee</p>
+                <p class="productsListItemPrice">950 UAH</p>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="productsListItemBtn" id="tee2">
+                <img
+                  src="/img/tee1.jpg"
+                  alt="YELLOW GTA EURO tee"
+                  width="200"
+                  height="200"
+                />
+                <img src="/img/teeBack1.2.jpg" alt="" width="200" height="200" class="teeBack">
+                <p class="productsListItemTitle">YELLOW "GTA EURO" tee</p>
+                <p class="productsListItemPrice">950 UAH</p>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="pinkTee" id="tee3">
+                <img
+                  src="/img/pinkPonyTee.JPEG"
+                  alt="FULL ROSY tee ☆"
+                  width="200"
+                  height="200"
+                />
+                <img src="/img/teeBack3.JPEG" alt="" width="200" height="200" class="teeBack">
+                <p class="productsListItemTitle">"FULL ROSY" tee ☆</p>
+                <p class="productsListItemPrice">950 UAH</p>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="animeTee" id="tee4">
+                <img
+                  src="/img/blackAnimeTee.JPEG"
+                  alt="BLACK ONE tee ★"
+                  width="200"
+                  height="200"
+                />
+                <img src="/img/teeBack4.JPEG" alt="" width="200" height="200" class="teeBack">
+                <p class="productsListItemTitle">"BLACK ONE" tee ★</p>
+                <p class="productsListItemPrice">950 UAH</p>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="modal">
+          <div class="modalContainer">
+            <button class="modalCloseBtn">X</button>
+            <img src="./img/modalPict.PNG" alt="" width="200" height="200" class="modalImg"/>
+            <a href="./contact.html" class="modalOrderBtnLink">
+              <button type="button" class="modalOrderBtn">☆ ORDER ☆</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <ul class="footerList">
+          <li class="footerListItem">2025</li>
+          <li class="footerListItem">
+            <a
+              href="https://www.instagram.com/hesoyam.cc?igsh=MW4yaDJqOXhvcHYycQ=="
+              class="footerListItem"
+              >hesoyam.cc</a
+            >
+          </li>
+          <li class="footerListItem">
+            <a href="/contact.html" class="footerListItem"
+              >Contact information</a
+            >
+          </li>
+          <li class="footerListItem">
+            <a href="/privacyPolicy.html" class="footerListItem"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="footerListItem">
+            <a href="/termsOfService.html" class="footerListItem"
+              >Terms of Service</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="module" src="./modalTee.js"></script>
+  </body>
+</html>
