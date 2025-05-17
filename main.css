@@ -82,6 +82,7 @@ body {
     background-color: white;
     color: violet;
     cursor: pointer;
+    max-width: 250px;
   }
   .animeTee {
     border: none;
